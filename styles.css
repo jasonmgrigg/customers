@@ -1,28 +1,12 @@
-/*Normalizer*/
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-/*Normalizer*/
-
-.title {
+/*.title {
   font-family: sans-serif;
   text-align: center;
   font-size: 2.5vw;
   margin-top: 4vw;
-}
+}*/
 
-.customers {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+ul, li {
+list-style-type: none;
 }

@@ -38,17 +38,18 @@ fetch('https://randomuser.me/api/?results=12&nat=us')
 
       function renderPeople(){
         return `
+
             ${persons.map(person => `
               <ul>
-              <li>${person.picture.medium}</li>
+              <img src="${person.picture.large}"</li>
               <li>${person.name.first + " " + person.name.last}</li>
               <li>${person.email}</li>
               <li>${person.location.street}</li>
               <li>${person.location.city + " " + person.location.state + " " + person.location.postcode}</li>
               <li>${person.phone}</li>
               </ul>
-              
               `).join('')}
+
                 `;
 
         }
