@@ -41,12 +41,12 @@ fetch('https://randomuser.me/api/?results=12&nat=us')
 
             ${persons.map(person => `
               <ul>
-              <img src="${person.picture.large}"</li>
-              <li>${person.name.first + " " + person.name.last}</li>
-              <li>${person.email}</li>
-              <li>${person.location.street}</li>
-              <li>${person.location.city + " " + person.location.state + " " + person.location.postcode}</li>
-              <li>${person.phone}</li>
+              <img src="${person.picture.large}"</img>
+              <li class="name">${person.name.first + " " + person.name.last}</li>
+              <li class="email">${person.email}</li>
+              <li class="address">${person.location.street}</li>
+              <li class="citystate">${person.location.city + " " + person.location.state + " " + person.location.postcode}</li>
+              <li class="phone">${person.phone}</li>
               </ul>
               `).join('')}
 
@@ -61,7 +61,7 @@ fetch('https://randomuser.me/api/?results=12&nat=us')
             </div>
               `
 
-        document.body.innerHTML = markup;
+        document.getElementById("customers").innerHTML += markup;
 
 
 
