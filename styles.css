@@ -1,0 +1,22 @@
+/*Normalizer*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/*Normalizer*/
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 4vw;
+}
