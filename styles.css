@@ -37,6 +37,8 @@ img {
   text-transform: uppercase;
   font-family: sans-serif;
   color: #BDBDBD;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 .address {
