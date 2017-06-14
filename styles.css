@@ -20,3 +20,9 @@
   font-size: 2.5vw;
   margin-top: 4vw;
 }
+
+.customers {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
